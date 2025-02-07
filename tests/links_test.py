@@ -5,7 +5,7 @@ import unittest
 import time
 import os
 from dotenv import load_dotenv
-from src.rebrandly_client import RebrandlyClient
+from src.rebrandly_official.rebrandly_client import RebrandlyClient
 
 env = os.getenv("ENVIRONMENT", "development")
 

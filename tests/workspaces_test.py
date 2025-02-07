@@ -1,10 +1,17 @@
 import os
 from dotenv import load_dotenv
-from src.rebrandly_client import RebrandlyClient
+from src.rebrandly_official.rebrandly_client import RebrandlyClient
 import pytest
 
+env = os.getenv("ENVIRONMENT", "development")
 
-load_dotenv()
+if env == "production":
+    load_dotenv(".env.production")
+elif env == "test":
+    load_dotenv(".env.test")
+else:
+    load_dotenv(".env.development")
+
 client = RebrandlyClient(os.getenv('API_KEY'))
 workspaces = client.workspaces
 

@@ -8,7 +8,7 @@ This repository is a Python SDK that wraps the [Rebrandly API](https://developer
 
 ## Installation
 
-```pip install rebrandly-sdk```
+```pip install rebrandly-official```
 
 ## Local Development and Testing
 
@@ -30,7 +30,7 @@ This SDK supports authentication via API key. You can create an API key in your 
 The API key should be specified when creating a RebrandlyClient instance.
 
 ```python
-from src.rebrandly_client import RebrandlyClient
+from rebrandly_official.rebrandly_client import RebrandlyClient
 
 client = RebrandlyClient('YOUR_API_KEY')
 ```

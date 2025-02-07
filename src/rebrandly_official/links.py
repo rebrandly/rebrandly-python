@@ -1,4 +1,4 @@
-from src.paginated_response import PaginatedResponse
+from .paginated_response import PaginatedResponse
 import json
 from requests.exceptions import HTTPError
 

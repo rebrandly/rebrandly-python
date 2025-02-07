@@ -1,7 +1,7 @@
 import requests
-from src.links import Links
-from src.workspaces import Workspaces
-from src.domains import Domains
+from .links import Links
+from .workspaces import Workspaces
+from .domains import Domains
 
 class RebrandlyClient:
     def __init__(self, api_key: str):

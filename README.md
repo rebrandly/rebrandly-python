@@ -1,6 +1,6 @@
 # Python SDK
 
-For our official developer documentation, visit [our developer site](https://developers.rebrandly.com/docs/get-started)
+For our official developer documentation, visit [our developer site](https://developers.rebrandly.com/page/sdk-documentation).
 
 ## Description
 
